@@ -29,7 +29,7 @@
                         <input type="text">
                     </div>
                 </fielset>
-                <input type="button" value="送　　信" onclick="quse()">
+                <input type="button" value="送　　信" onclick="ques()">
 
                 <script>
                     function ques(){
@@ -38,11 +38,12 @@
                             setTimeout(() => {
                                 location.href = "./index.html";
                             }, 3000);
-                            
+
                         }else{
                             send();
                         }
                     }
+
                     function send(){
                         alert("できませんでした")
                     }    
